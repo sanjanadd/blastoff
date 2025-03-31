@@ -2,18 +2,18 @@
 using namespace std;
 
 int main() {
-    int startnumber; // Variable to store the user input
+    int startNumber; // Variable to store the user input
 
-    // Prompting the user to write the starting number and storing it in the variable startnumber
+    // Prompting the user for the start number
     cout << "Enter a number to start the countdown: ";
-    cin >> startnumber;
+    cin >> startNumber;
 
-    // For loop to count down from the user input (startnumber) to 1
-    for (int i = startnumber; i >= 1; i--) {
+    // Count down from user-specified number to 1 using a for loop
+    for (int i = startNumber; i >= 1; i--) {
         cout << i << endl;  // Printing each number in descending order
     }
 
-    // Printing "Blast off!" after the countdown is finished
+    // Printing blast off after countdown is done
     cout << "Blast off!" << endl; 
 
     return 0;
